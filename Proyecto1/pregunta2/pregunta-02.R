@@ -20,10 +20,10 @@ texas2    = dataT[,3]                               #datos del 2002
 mediaVT <- vector()
 for ( i in 1:length(texas7) ){
 	d       = texas7[i] - texas2[i]
-      mediaVT <- c(mediaT, d)
+      mediaVT <- c(mediaVT, d)
 }
 
-mediaT   = mean(mediaVT) #media de los datos apareados de texas
+mediaT   = mean(mediaVT)  #media de los datos apareados de texas
 varianza <- var(mediaVT)  #varianza de los datos apareados de texas
 
 #nivel de confianza 95%
