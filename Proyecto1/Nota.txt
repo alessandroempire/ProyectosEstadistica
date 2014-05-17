@@ -1,3 +1,0 @@
-X= Número de hijos
-
-El valor 7 representa 7 hijos o más.
