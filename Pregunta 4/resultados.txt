@@ -1,0 +1,95 @@
+> summary(aragua)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   2.000   3.000   3.201   4.000   7.000
+
+> sqrt(var(aragua))
+[1] 1.875879
+
+> print (var1)
+[1] 0.5861024
+
+> summary(dc)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   1.000   2.000   2.755   3.000   7.000
+
+> sqrt(var(dc))
+[1] 1.704089
+
+> print (var2)
+[1] 0.6184868
+
+> summary(miranda)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   2.000   3.000   2.965   4.000   7.000
+
+> sqrt(var(miranda))
+[1] 1.7628
+
+> print (var3)
+[1] 0.5944542
+
+> summary(zulia)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  1.000   2.000   3.000   3.372   5.000   7.000
+> sqrt(var(zulia))
+[1] 2.017517
+
+> print (var4)
+[1] 0.5982857
+
+
+
+4.b
+
+> t.test(aragua1,conf.level = 0.88)
+
+	One Sample t-test
+
+data:  aragua1
+t = 64.88, df = 239, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+88 percent confidence interval:
+ 5.201001 5.457332
+sample estimates:
+mean of x
+ 5.329167
+
+
+> t.test(dc1,conf.level = 0.88)
+
+	One Sample t-test
+
+data:  dc1
+t = 56.9949, df = 162, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+88 percent confidence interval:
+ 5.149284 5.439673
+sample estimates:
+mean of x
+ 5.294479
+
+> t.test(miranda1,conf.level = 0.88)
+
+	One Sample t-test
+
+data:  miranda1
+t = 60.8762, df = 193, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+88 percent confidence interval:
+ 5.097741 5.366177
+sample estimates:
+mean of x
+ 5.231959
+
+> t.test(zulia1,conf.level = 0.88)
+
+	One Sample t-test
+
+data:  zulia1
+t = 71.723, df = 264, p-value < 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+88 percent confidence interval:
+ 5.385924 5.625397
+sample estimates:
+mean of x
+  5.50566
