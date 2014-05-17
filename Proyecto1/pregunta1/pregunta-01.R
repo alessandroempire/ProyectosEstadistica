@@ -7,7 +7,6 @@
 
 #Definimos
 coVar     <- function(x) ( sd(x)/mean(x) )          #funcion de coeficiente de varianza
-par(mfrow = c(2,2))                                 #interfaz grafica
 pdf( "pregunta01.pdf" , 7 , 5)                         
                                                     
 
